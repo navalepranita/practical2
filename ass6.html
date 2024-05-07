@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Mobile Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="ass.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body  id="pune">
+
+<!-- Start of the Home Page -->
+<div data-role="page">
+
+  <div data-role="header" data-position="fixed">
+    <h1>Pune</h1>
+  </div><!-- /header -->
+
+  <div role="main" class="ui-content">
+    <h2>Welcome to Pune</h2>
+    <p>Enjoy our delicious food!</p>
+    <a href="#menu" type="button" class="ui-btn ui-corner-all">Visit places in Pune</a>
+    <a href="#gallery" class="ui-btn ui-corner-all">Gallery</a>
+    <img src="restuarent.avif" alt="Image 1" class="gallery-image" style=" width: 20%;" height="300" width="600" >
+  </div><!-- /content -->
+
+  <div data-role="footer" data-position="fixed">
+    <h4>© 2024 Pune</h4>
+  </div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of the Menu Page -->
+<div data-role="page" id="menu">
+
+  <div data-role="header" data-position="fixed">
+    <a href="#home" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+    <h1>Menu</h1>
+  </div><!-- /header -->
+
+  <div role="main" class="ui-content">
+    <h2>Our Pune</h2>
+    <!-- Add your menu items here -->
+    <img src="main.jpg" alt="Image 2" class="gallery-image" height="300" width="700">
+    <p>Menu item 1-Appetizer</p>
+    <p>Menu item 2-Dishes</p>
+    <p>Menu item 3-Dessert</p>
+    <p>Menu item 4-Cold-drinks</p>
+  </div><!-- /content -->
+
+  <div data-role="footer" data-position="fixed">
+    <h4>© 2024 Restaurant</h4>
+  </div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Start of the Gallery Page -->
+<div data-role="page" id="gallery">
+
+  <div data-role="header" data-position="fixed">
+    <a href="#home" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+    
+    <h1>Gallery</h1>
+  </div><!-- /header -->
+
+  <div role="main" class="ui-content">
+    <h2>Our Gallery</h2>
+    <!-- Add your gallery images here -->
+    <img src="apetizer.webp" alt="Image 1" class="gallery-image">
+    <img src="des.jpg" alt="Image 2" class="gallery-image">
+    <img src="cold.jpg" alt="Image 3" class="gallery-image" height="300" width="600">
+    <img src="dishes.avif" alt="Image 3" class="gallery-image">
+    <img src="pune.jpg">
+  </div><!-- /content -->
+
+  <div data-role="footer" data-position="fixed">
+    <h4>© 2024 Restaurant</h4>
+  </div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
